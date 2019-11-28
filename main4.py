@@ -1,8 +1,8 @@
 import cv2
 
-cascade_src1 = '/home/swati/Desktop/head.xml'
-cascade_src = '/home/swati/Desktop/two_wheeler.xml'
-video_src = '/home/swati/Desktop/bikes.mp4'
+cascade_src1 = '/head.xml'
+cascade_src = '/two_wheeler.xml'
+video_src = '/bikes.mp4'
 
 cap = cv2.VideoCapture(video_src)
 fgbg = cv2.createBackgroundSubtractorMOG2()
